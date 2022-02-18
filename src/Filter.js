@@ -13,7 +13,7 @@ export default function Filter({ onFilterChange }) {
           role="presentation"
           className="nav-item all-task active"
           onClick={() => clickHandler(item)}>
-        <a className="nav-link"  style={{cursor: 'pointer', textTransform: 'capitalize'}}>
+        
             {item}
           </a>
         </li>)
